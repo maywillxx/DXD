@@ -10,7 +10,15 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
+            //输出9*9乘法表
+            for (int a = 1; a <= 9; a++)
+            {
+                for (int b = 1; b <= 9; b++)
+                {
+                    Console.WriteLine(a+"*"+b+"="+a*b);
+                }
+            }
+            Console.ReadKey();
         }
     }
 }
